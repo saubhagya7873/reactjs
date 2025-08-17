@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <img src="shinchan.webp" alt="" />
-      <h1>Hello World</h1>
+      <h1>Shinchan</h1>
     </>
   )
 }
