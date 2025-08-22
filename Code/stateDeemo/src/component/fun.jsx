@@ -4,7 +4,7 @@ import { useState } from 'react'
 function fun() {
   const [na, setNA] = useState("saubhagya")
   const handleClick = () => {
-    // setNA("Mr. Sahoo")
+    //setNA("Mr. Sahoo")
     setNA((na) => na + "Sahoo")
   }
 
