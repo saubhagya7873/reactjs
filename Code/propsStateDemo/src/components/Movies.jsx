@@ -6,7 +6,7 @@ function Movies() {
     const addCount = (n) =>{
         //count = 0
         setCount(count + n)
-        console.log(count); //0
+        console.log(count); //0 because state is a asynchronous function
     }
     return (
         <div style={{ border: "1px solid red", padding: "15px", display: "grid", gridTemplateColumns: "repeat(3,1fr)" }}>
