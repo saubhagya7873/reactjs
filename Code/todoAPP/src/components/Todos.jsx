@@ -2,6 +2,7 @@ import React from 'react'
 
 function Todos(props) {
     console.log(props.data);
+    
   return (
     <div>
       <h2>List of Tasks:</h2>
