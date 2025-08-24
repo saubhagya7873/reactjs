@@ -13,4 +13,4 @@ function SocialMedia() {
 }
 
 export default SocialMedia 
-// Exporting the SocialMedia
+
