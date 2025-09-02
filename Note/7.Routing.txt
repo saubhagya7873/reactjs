@@ -1,0 +1,34 @@
+React cannot do routing on its own, so it needs another library to perform routing. routing specifies navigating from one page to anothe page.
+  step 1: start a react application and install
+  react router dom
+    npm install react-router-dom
+  
+ step 2: create some pages as functional components manually
+ step 3: routing is provided to whole application by BrowserRouter, so wrap the app components
+ with BrowserRouter
+ <BrowserRouter>
+   <App/>
+</BrowserRouter>
+
+ step 4: Routes are provided within Routes component and Each Route will be within
+ Route component . These two components are provided by react router DOM. Each Route can be specified with path and component
+  
+  <Routes>
+      <Route path='/dashboard' element={<Dashboard />} />
+      <Route path='/contact' element={<Contact />} />
+
+  </Routes>
+ step 5: anchor tag will make page reload which is not prefereble by React so , react-router-dom provides an element called Link
+
+ step 6: child routing is possible with react router dom . we need to mention child routes
+ inside the parent route
+
+    <Routes>
+      <Route path='/dashboard' element={<Dashboard />}>
+         <Route path='/settings' element={<Settings/>} />
+      </Route>
+      <Route path='/contact' element={<Contact />} />
+
+  </Routes>
+
+ step 7: we can navigate to specific path by programming also using useNavigate hook.

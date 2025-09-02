@@ -28,7 +28,7 @@ function App()
   },[])
 
   return (
-    <div>
+    <div className="box">
       {/* <p>Count : {count}</p>
       <button onClick={()=>setCount(count+1)}>Click me</button> */}
 
